@@ -16,12 +16,12 @@ export default function Card(props) {
     return (
         <div className="card">
             {console.log(props.location)}
-            {/* {badgeText && */<div className="cards--badge">{badgeText}</div>}
-            <img src={props.img} className="card--image" />
+            { badgeText && <div className="cards--badge">{badgeText}</div>}
+            <img src={props.coverImg} className="card--image" />
 
             <div className="card-stats">
-                <span>{props.rating}</span>
-                <span className="gray"> {props.reviewCount} </span>
+                <span>{props.stats.rating}</span>
+                <span className="gray"> {props.stats.reviewCount} </span>
                 <span className="gray"> {props.country} </span>
             </div>
             <p>{props.title}</p>

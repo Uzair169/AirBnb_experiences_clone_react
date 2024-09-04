@@ -19,7 +19,6 @@ export default [{
     country: "USA",
     coverImg: Bill, //Pass Bill instead of {Bill} for it to be rendered, IMPORTANT
     stats: { rating: 10, reviewCount: "(7)" },
-    location: "Online",
     openspots: 10,
 },
 {
@@ -30,7 +29,6 @@ export default [{
     country: "USA",
     coverImg: Bill, //Pass Bill instead of {Bill} for it to be rendered, IMPORTANT
     stats: { rating: 10, reviewCount: "(7)" },
-    location: "Online",
     openspots: 3,
 },
 {
