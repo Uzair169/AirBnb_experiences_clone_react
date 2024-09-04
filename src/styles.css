@@ -41,6 +41,7 @@ section {
 }
 
 .hero-title {
+    margin-top: 0;
     margin-bottom: 16px;
 }
 
@@ -51,14 +52,40 @@ section {
 .card {
     width: 175px;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    position: relative;
 }
 
 .card--image {
     width: 100%;
     border-radius: 9px;
+    margin-bottom: 0.5rem;
+
 }
 
 .card-stats {
     display: flex;
     align-items: center;
+    margin-left: 0.1rem;
+}
+
+.cards--list {
+    display: flex;
+}
+
+.cards--price {
+    margin-top: auto;
+}
+
+.cards--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgb(230, 227, 227);
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
